@@ -40,8 +40,8 @@
     }
     .pics{
        /* margin: 30px 0; */
-       padding-left: 30px;
-       margin-top: 30px;
+       /* padding-left: 30px;
+       margin-top: 30px; */
        /* transform: scale(1); */
        /* margin-top: 50px; */
        /* padding-top: 10px; */
@@ -61,6 +61,12 @@
     } */
 .a-pics{
     background-color: rgba(0, 0, 255, 0.344);
+    margin: 15px;
+}
+.p1{
+    position: relative;
+    z-index: 10;
+    margin-top:-50px;
 }
 
 }
