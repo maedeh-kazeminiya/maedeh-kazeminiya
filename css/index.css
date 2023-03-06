@@ -39,28 +39,18 @@
         border: 1px solid black;
     }
     .pics{
-        /* filter: brightness(90%); */
-       /* margin: 30px 0; */
-       /* padding-left: 30px;
-       margin-top: 30px; */
-       /* transform: scale(1); */
-       /* margin-top: 50px; */
-       /* padding-top: 10px; */
-       /* margin: 30px; */
-       /* overflow: hidden; */
-       /* opacity: 80%; */
+        filter: brightness(90%);
+       transform: scale(1);
+       overflow: hidden;
+       transition-duration:500ms;
+       transition-property:transform;
     }
     .pics:hover{
-        /* transform: scale(1.5); */
+        transform: scale(1.1);
+        filter: brightness(60%);
         
     }
     
-    /* .div-pics{
-        width:100%;
-        height:400px;
-        background-color: rgba(0, 0, 255, 0.283);
-        overflow: hidden;
-    } */
 .a-pics{
     background-color: rgba(255, 0, 255, 0.344);
     margin: 15px;
@@ -76,18 +66,21 @@
     width: 100%;
     height:410px;
     position: relative;
+    overflow: hidden;
 }
 .div2{
     background-color:red;
     width: 100%;
     height:411px; 
     position: relative;
+    overflow: hidden;
 }
 .div3{
     background-color:green;
     width: 100%;
     height:289px; 
     position: relative;
+    overflow: hidden;
 }
 .img-p{
     position: absolute;
@@ -97,9 +90,53 @@
     color: white;
     letter-spacing: 1px;
     line-height:35px;
+    background-color: chartreuse;
 }
 .span{
     color: rgb(197, 192, 192);
     font-size: 18px;
+}
+.tech-div{
+    border: 1px solid black;
+    position:absolute;
+    height:45px;
+    width: 180px;
+    /* background-color: chartreuse; */
+    bottom:150px;
+    left:900px;
+    text-align: center;
+    line-height: 45px;
+}
+.tech-a{
+color: black;
+position: absolute;
+}
+.pic-tech{
+    position: relative;
+    margin-top: 100px;
+}
+.pic-end{
+    /* opacity: 50%; */
+}
+.box-end{
+    width: 100%;
+    height:480px;
+    background-color: rgba(128, 128, 128, 0.147);
+    margin-top: 50px;
+}
+.div-end{
+    /* width: 100%; */
+    height: 480px;
+    background-color:rgba(128, 128, 128, 0.147);
+    margin-top: 50px;
+}
+.strong-1{
+    margin-left:40px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.p-1{
+    color: black;
+    /* text-decoration: none; */
 }
 }
