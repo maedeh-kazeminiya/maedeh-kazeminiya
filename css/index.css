@@ -72,10 +72,13 @@
        transition-duration:500ms;
        transition-property:transform;
     }
-    .pics:hover{
+    .div1:hover img{
+        transform: scale(1.1);
+        filter: brightness(60%);  
+    }
+    .div1:hover div{
         transform: scale(1.1);
         filter: brightness(60%);
-        
     }
     
 .a-pics{
@@ -117,7 +120,7 @@
     color: white;
     letter-spacing: 1px;
     line-height:35px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     transition-duration: 500ms;
 }
 .img-p:hover{
