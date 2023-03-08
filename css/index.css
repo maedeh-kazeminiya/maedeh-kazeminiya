@@ -245,14 +245,40 @@ position: absolute;
     height: 500px;
     margin-top: 50px;
     width: 100%;
+  
 }
 input{
     width: 500px;
     height: 45px;
     margin-top: 24px;
+    color: rgb(120, 120, 120);
 }
 .list{
     display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: rgb(89, 87, 87);
+  font-size: 15px;
+  /* margin-top: 20px; */
+  /* margin-left: 50px; */
+  /* background-color: aqua; */
+  /* width: 200px; */
+ 
+  
+  
+}
+.list1{
+    /* margin-top: 20px; */
+    font-weight: 600;
+    /* background-color: aqua;
+    
+    /* margin-left: 50px; */
+}
+.hr{
+    width:500px;
+    height: 100px;
+    color: rgb(244, 31, 31);
+    margin-top: 50px;
 }
 
 }
