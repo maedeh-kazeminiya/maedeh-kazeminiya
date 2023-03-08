@@ -29,14 +29,41 @@
     .learn{
         position: relative;
         z-index: 5;
+        bottom:170px;
+        width: 180px;
+        height:40px;
+        text-align: center;
+        left: -20px;
+        line-height: 40px;   
+        border: 1px solid black;
+    }
+    .learn:hover{
+        background-color: rgb(199, 0, 11);
+        border-color: rgb(199, 0, 11);
+    }
+    .learn2:hover{
+        background-color: rgb(199, 0, 11);
+        border-color: rgb(199, 0, 11);
+    }
+    .learn2{
+        position: relative;
+        z-index: 5;
         bottom:200px;
         width: 180px;
         height:40px;
-        margin-left:270px;
-        top: -250px;
         text-align: center;
+        margin-left: 1000px;
         line-height: 40px;   
         border: 1px solid black;
+    }
+    .a-learn:hover{
+        color: white;
+    }
+    .a-learn{
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        color: black;
     }
     .pics{
         filter: brightness(90%);
@@ -69,7 +96,7 @@
     overflow: hidden;
 }
 .div2{
-    background-color:red;
+    background-color:rgb(199, 0, 11);
     width: 100%;
     height:411px; 
     position: relative;
@@ -91,6 +118,10 @@
     letter-spacing: 1px;
     line-height:35px;
     background-color: chartreuse;
+    transition-duration: 500ms;
+}
+.img-p:hover{
+    bottom: 50px;
 }
 .span{
     color: rgb(197, 192, 192);
@@ -101,7 +132,6 @@
     position:absolute;
     height:45px;
     width: 180px;
-    /* background-color: chartreuse; */
     bottom:150px;
     left:900px;
     text-align: center;
@@ -117,7 +147,7 @@ position: absolute;
 }
 .pic-end{
  transform: scale(1);
- transition-duration: 500ms;
+ transition-duration: 800ms;
 }
 .pic-end:hover{
     transform: scale(1.1);
@@ -177,22 +207,20 @@ position: absolute;
     margin-left: 20px;
 }
 .text-2{
-    /* margin-top: 30px; */
     margin-left: 20px;
     color: gray;
     text-decoration: none;
     display: block;
 }
 .text:hover{
-    color: red;
+    color: rgb(199, 0, 11);
 }
 
 .text-2:hover{
-    color: red;
+    color: rgb(199, 0, 11);
 }
 .more{
     height: 40px;
-    /* background-color: blue; */
     margin-top: 50px;
     text-align: center;
     border: 1px solid black;
@@ -202,9 +230,15 @@ position: absolute;
     color: black;
 }
 .more:hover{
-    background-color: red;
+    background-color: rgb(199, 0, 11);
     color: white;
-    border: 1px solid red;
+    border: 1px solid rgb(199, 0, 11);
+}
+.overflow{
+    width: 100%;
+    height:250px;
+    background-color: blue;
+    overflow: hidden;
 }
 .end{
     background-color: rgb(242, 242, 242);
