@@ -4,7 +4,7 @@
 
 @media all and (min-width:575px) and (max-width:991px) {}
 
-@media all and (min-width:992px) and (max-width:1199px) {
+@media all and (min-width:992px) and (max-width:1399px) {
     
     .div {
         height: 80px;
@@ -12,7 +12,7 @@
     }
 
     .tex1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .tex1::after {
@@ -22,30 +22,32 @@
         width: 60px;
         margin-top: 4px;
         background-color: rgb(161, 0, 0);
-        margin-left: 70px;
+        margin-left:60px;
+    }
+    .a-learn{
+        visibility: hidden;
     }
 
-    .learn {
+    /* .learn {
         z-index: 5;
-        bottom: 170px;
         width: 180px;
         height: 40px;
         left: -20px;
         line-height: 40px;
         border: 1px solid black;
-    }
+    } */
 
-    .learn:hover {
+    /* .learn:hover {
         background-color: rgb(199, 0, 11);
         border-color: rgb(199, 0, 11);
-    }
+    } */
 
-    .learn2:hover {
+    /* .learn2:hover {
         background-color: rgb(199, 0, 11);
         border-color: rgb(199, 0, 11);
-    }
+    } */
 
-    .learn2 {
+    /* .learn2 {
         z-index: 5;
         bottom: 200px;
         width: 180px;
@@ -53,11 +55,11 @@
         margin-left: 1000px;
         line-height: 40px;
         border: 1px solid black;
-    }
+    } */
 
-    .a-learn:hover {
+    /* .a-learn:hover {
         color: white;
-    }
+    } */
 
     .pics {
         filter: brightness(90%);
@@ -99,7 +101,7 @@
     }
     .div1 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height: 410px;
+        height:350px;
         overflow: hidden;
     }
     .div1:hover{
@@ -107,7 +109,7 @@
     }
     .div2 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251));
-        height: 411px;
+        height:350px;
         overflow: hidden;
     }
     .div2:hover{
@@ -116,7 +118,7 @@
 
     .div3 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398));
-        height: 289px;
+        height:245px;
         overflow: hidden;
     }
     .div3:hover{
@@ -124,11 +126,11 @@
     }
 
     .img-p {
-        bottom: -50px;
+        bottom: -40px;
         left: 20px;
-        font-size: 22px;
+        font-size:18px;
         letter-spacing: 1px;
-        line-height: 35px;
+        line-height: 30px;
         transition-duration: 500ms;
     }
     .span {
@@ -138,11 +140,11 @@
 
     .tech-div {
         border: 1px solid black;
-        height: 45px;
+        height: 40px;
         width: 180px;
-        bottom: 150px;
-        left: 900px;
-        line-height: 45px;
+        bottom:100px;
+        left: 660px;
+        line-height: 40px;
     }
 
     .tech-div:hover {
@@ -158,7 +160,7 @@
 
     .pic-end {
         transform: scale(1);
-        transition-duration: 800ms;
+        transition-duration: 600ms;
     }
 
     .box-end:hover .pic-end {
@@ -166,7 +168,7 @@
     }
 
     .box-end {
-        height: 480px;
+        height: 450px;
         background-color: rgb(248, 248, 248);
         margin-top: 50px;
         overflow: hidden;
@@ -177,7 +179,7 @@
     }
 
     .div-end {
-        height: 480px;
+        height: 450px;
         background-color: rgb(242, 242, 242);
         margin-top: 50px;
         overflow: auto;
@@ -185,16 +187,17 @@
     }
 
     .strong-1 {
-        margin-left: 50px;
-        font-size: 18px;
+        margin-left:30px;
+        font-size: 17px;
         padding-top: 50px;
         letter-spacing: 1px;
 
     }
 
     .p-1 {
-        margin-left: 30px;
+        margin-left:20px;
         margin-top: 20px;
+        font-size: 15px;
     }
 
     .strong-p {
@@ -203,6 +206,7 @@
 
     .span-1 {
         color: rgb(102, 102, 102);
+        font-size: 15px;
     }
 
     .event1 {
@@ -215,24 +219,22 @@
         font-size: 13px;
         z-index: 10;
     }
-
     .text {
-        font-size: 18px;
-        margin-top: 27px;
+        font-size: 16px;
+        margin-top: 20px;
         margin-left: 20px;
+        color: rgba(0, 0, 0, 0.842);
     }
 
-    .text-2 {
-        margin-left: 20px;
-        color: rgb(138, 135, 135);
-    }
-
-    .text:hover {
+    .text:hover{
         color: rgb(199, 0, 11);
     }
-
-    .text-2:hover {
-        color: rgb(199, 0, 11);
+    .span-mar{
+        color: gray;
+        font-size: 15px;
+    }
+    .span-mar:hover{
+        color: red;
     }
 
     .more {
@@ -287,7 +289,7 @@
 
     .icons {
         color: rgba(51, 51, 51, 0.71);
-        font-size: 29px;
+        font-size: 28px;
         margin-left: 20px;
     }
 
@@ -297,7 +299,7 @@
 
     .icont {
         color: rgba(51, 51, 51, 0.71);
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 20px;
     }
 
@@ -309,11 +311,20 @@
     .p-end {
         padding-top: 10px;
         color: #666;
+        font-size: 13px;
     }
 
     .a-end {
-        margin-left: 20px;
+        margin-left: 25px;
         color: #666;
+    }
+    .div-new{
+        width:350px;
+        height: 35px;
+        z-index:1;
+        /* padding-left:17px; */
+        background-color:rgb(242, 242, 242);
+        position:absolute;
     }
 
 }
@@ -534,19 +545,16 @@
         font-size: 18px;
         margin-top: 27px;
         margin-left: 20px;
+        color: rgba(0, 0, 0, 0.842);
     }
-
-    .text-2 {
-        margin-left: 20px;
-        color: rgb(138, 135, 135);
-    }
-
-    .text:hover {
+    .text:hover{
         color: rgb(199, 0, 11);
     }
-
-    .text-2:hover {
-        color: rgb(199, 0, 11);
+    .span-mar{
+        color: gray;
+    }
+    .span-mar:hover{
+        color: red;
     }
 
     .more {
@@ -628,6 +636,14 @@
     .a-end {
         margin-left: 20px;
         color: #666;
+    }
+    .div-new{
+        width: 400px;
+        height: 35px;
+        z-index:1;
+        /* padding-left:17px; */
+        background-color:rgb(242, 242, 242);
+        position:absolute;
     }
 
 }
