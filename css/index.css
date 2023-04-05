@@ -9,7 +9,7 @@
     }
     
     .tex1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     
     .tex1::after {
@@ -19,7 +19,7 @@
         width: 60px;
         margin-top: 4px;
         background-color: rgb(161, 0, 0);
-        margin-left:50px;
+        margin-left:65px;
     }
     .a-learn{
         color: black;
@@ -49,7 +49,7 @@
         transition-duration: 500ms;
         transition-property: transform;
         z-index: -50;
-        width: 960px;
+        /* width: 960px; */
     }
     .span1 {
         font-size: 17px;
@@ -84,10 +84,10 @@
     } */
     .div1 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height:680px;
-        width: 960px;
+        height:540px;
+        /* width: 960px; */
         overflow: hidden;
-        margin-left:-148px;
+        /* margin-left:-148px; */
     }
     /* .div1:hover{
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
@@ -124,12 +124,13 @@
     }
 
     .tech-div {
-        border: 1px solid black;
+        /* border: 1px solid black;
         height: 40px;
         width: 180px;
         bottom:100px;
         left: 660px;
-        line-height: 40px;
+        line-height: 40px; */
+        visibility: hidden;
     }
 
     .tech-div:hover {
@@ -143,14 +144,14 @@
         margin-top: 100px;
     }
 
-    .pic-end {
+    /* .pic-end {
         transform: scale(1);
         transition-duration: 600ms;
-    }
+    } */
 
-    .box-end:hover .pic-end {
+    /* .box-end:hover .pic-end {
         transform: scale(1.1);
-    }
+    } */
 
     .box-end {
         height: 450px;
@@ -164,7 +165,7 @@
     }
 
     .div-end {
-        height: 450px;
+        height: 550px;
         background-color: rgb(242, 242, 242);
         margin-top: 50px;
         overflow: auto;
@@ -205,8 +206,8 @@
         z-index: 10;
     }
     .text {
-        font-size: 16px;
-        margin-top: 20px;
+        font-size: 15px;
+        margin-top:40px;
         margin-left: 20px;
         color: rgba(0, 0, 0, 0.842);
     }
@@ -216,24 +217,25 @@
     }
     .span-mar{
         color: gray;
-        font-size: 15px;
+        font-size: 12px;
     }
     .span-mar:hover{
         color: red;
     }
 
     .more {
-        height: 40px;
+        height:30px;
         margin-top: 50px;
         border: 1px solid black;
-        line-height: 40px;
+        line-height: 30px;
+        font-size: 14px;
     }
 
-    .more:hover {
+    /* .more:hover {
         background-color: rgb(199, 0, 11);
         color: white;
         border: 1px solid rgb(199, 0, 11);
-    }
+    } */
 
     .overflow {
         height: 250px;
