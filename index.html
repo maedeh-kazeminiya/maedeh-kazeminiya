@@ -26,13 +26,17 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/full.jpg" class="d-block w-100 mwc" alt="...">
+                <!-- <img src="images/full.jpg" class="d-block w-100 mwc" alt="..."> -->
+                <picture>
+                    <source media="(min-width:992px)" srcset="images/1.webp" class="d-block w-100 mwc">
+                    <img src="images/first.avif" alt="" class="d-block w-100 mwc">
+                </picture>
                 <div class="carousel-caption d-none d-md-block">
                     <div class="learn position-relative text-center"><a class="a-learn w-100 text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/1.webp" class="d-block w-100" alt="...">
+                <!-- <img src="images/1.webp" class="d-block w-100" alt="..."> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="learn2 position-relative text-center"><a class="a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
@@ -58,9 +62,14 @@
     <!-- ............................................................................................................................... -->
     <div class="container">
         <div class="row">
-            <div class="col-8 p-0">
+            <div class="col-lg-8 col-12">
                 <a href="#" class="a-pics d-block mt-5">
-                    <div class="div1 w-100 position-relative"><img src="images/metabook.jpg" class="pics position-absolute w-100">
+                    <div class="div1 position-relative p-0">
+                        <!-- <img src="images/metabook.jpg" class="pics position-absolute w-100"> -->
+                        <picture>
+                    <source media="(min-width:992px)" srcset="images/metabook.jpg" class="pics position-absolute w-100 p-0">
+                    <img src="images/watch2.avif" alt="" class="pics position-absolute">
+                        </picture>
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
                             <strong>HUAWEI MateBook X Pro</strong><br>
@@ -70,7 +79,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 p-0">
+            <!-- .......................................................................................................................... -->
+            <div class="col-lg-4  p-0">
                 <a href="#" class="a-pics d-block mt-5">
                     <div class="div1 w-100 position-relative"><img src="images/watch.jpg" class="pics position-absolute w-100">
                         <p class="img-p position-absolute text-white">
@@ -83,7 +93,7 @@
                 </a>
             </div>
 
-            <div class="col-4 p-0">
+            <div class="col-lg-4 col-6 p-0">
                 <a href="#" class="a-pics d-block">
                     <div class="div2 w-100 position-relative"><img src="images/miss.jpg" class="pics position-absolute w-100">
                         <p class="img-p position-absolute text-white">
@@ -95,7 +105,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-8 p-0">
+            <div class="col-lg-8 col-6 p-0">
                 <a href="#" class="a-pics d-block">
                     <div class="div2 w-100 position-relative"><img src="images/matepad.jpg" class="pics position-absolute w-100">
                         <p class="img-p position-absolute text-white">PRODUCT<br>
@@ -236,7 +246,7 @@
                 <div class="col-7 mt-4 text-secondary">Home</div>
                 <div class="col-4">
                     <div class="search">
-                        <form action="#" id="form"><input type="text fw-bold text-black text-decoration-none d-block" id="input" name="search"
+                        <form action="#" id="form"><input type=text class="fw-bold text-black text-decoration-none d-block input" name="search"
                                 placeholder=" &nbsp; Search Huawei.com">
                             </input></form>
                     </div>
@@ -297,7 +307,7 @@
                             <a href="#" class="icons text-decoration-none"><i class="bi bi-youtube"></i></a>
                             <a href="#" class="icons text-decoration-none"><i class="bi bi-instagram"></i></a>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
