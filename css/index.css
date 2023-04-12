@@ -65,16 +65,21 @@
         /* z-index: -50; */
         /* width: 960px; */
     }
+    .pic11{
+      display: none;
+    }
 
     .span1 {
         font-size: 17px;
         margin-left: 2px;
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
         /* transition-duration: 500ms; */
     }
     .span2{
         font-size: 17px;
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 
     .span1:hover{
@@ -168,7 +173,8 @@
         bottom:100px;
         left: 660px;
         line-height: 40px; */
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 
     .tech-div:hover {
@@ -282,7 +288,7 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height: 800px;
+        height: 540px;
         margin-top: 50px;
     }
    
@@ -290,12 +296,13 @@
     .input {
         width: 500px;
         height: 45px;
-        margin-top:-30px;
+        margin-top:20px;
         color: rgb(120, 120, 120);
         width: 400px;
     }
     .home{
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 
     .list {
@@ -312,6 +319,13 @@
 
     .hr {
         width: 98%;
+        height: 1px;
+        background-color: rgba(98, 98, 98, 0.145);
+        margin: 20px auto 30px auto;
+    }
+    .hr2{
+      /* display: none; */
+        width: 100%;
         height: 1px;
         background-color: rgba(98, 98, 98, 0.145);
         margin: 20px auto 30px auto;
@@ -370,7 +384,8 @@
         position:absolute;
     }
     .hide{
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 
 }
@@ -467,7 +482,7 @@
     }
     .div1 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height:350px;
+        height:291px;
         overflow: hidden;
     }
     .div1:hover{
@@ -475,7 +490,7 @@
     }
     .div2 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251));
-        height:350px;
+        height:291px;
         overflow: hidden;
     }
     .div2:hover{
@@ -484,7 +499,7 @@
 
     .div3 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398));
-        height:245px;
+        height:205px;
         overflow: hidden;
     }
     .div3:hover{
@@ -508,8 +523,8 @@
         border: 1px solid black;
         height: 40px;
         width: 180px;
-        bottom:100px;
-        left: 660px;
+        bottom:80px;
+        left: 550px;
         line-height: 40px;
     }
 
@@ -567,7 +582,7 @@
     }
 
     .strong-p {
-        margin-top: 20px;
+        margin-top:3%;
     }
 
     .span-1 {
@@ -623,7 +638,7 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height: 700px;
+        height:50%;
         margin-top: 50px;
     }
 
@@ -647,7 +662,7 @@
     }
 
     .hr {
-        width: 1300px;
+        width:85%;
         height: 1px;
         background-color: rgba(98, 98, 98, 0.145);
         margin: 12px auto 30px auto;
@@ -656,7 +671,10 @@
     .icons {
         color: rgba(51, 51, 51, 0.71);
         font-size: 28px;
-        margin-left: 20px;
+        margin-left:5%;
+    }
+    .insta{
+margin-bottom: 1.5%;
     }
 
     .icons:hover {
@@ -666,12 +684,13 @@
     .icont {
         color: rgba(51, 51, 51, 0.71);
         font-size: 13px;
-        margin-left: 20px;
+        margin-left:5%;
     }
 
     .gray {
         height: 50px;
         background-color: #e6e6e6;
+        /* line-height: 50px; */
     }
 
     .p-end {
@@ -682,16 +701,31 @@
 
     .a-end {
         margin-left: 25px;
+        margin-top: 1%;
+        font-size: 13px;
         color: #666;
     }
     .div-new{
-        width:350px;
+        width:290px;
         height: 35px;
         z-index:1;
         /* padding-left:17px; */
         background-color:rgb(242, 242, 242);
         position:absolute;
     }
+    .cars{
+      display: none;
+    }
+    .hide2{
+      display: none;
+  }
+  .hr2{
+    /* display: none; */
+      width: 100%;
+      height: 1px;
+      background-color: rgba(98, 98, 98, 0.145);
+      margin: 20px auto 30px auto;
+  }
 
 }
 
@@ -943,7 +977,7 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height:750px;
+        height:600px;
         margin-top: 50px;
     }
 
@@ -1014,7 +1048,8 @@
         position:absolute;
     }
     .hide2{
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
     .footer{
       width:100%;
@@ -1022,6 +1057,16 @@
       /* background-color: red; */
       line-height: 60px;
 
+    }
+    .cars{
+      display: none;
+    }
+    .hr2{
+      /* display: none; */
+        width: 100%;
+        height: 1px;
+        background-color: rgba(98, 98, 98, 0.145);
+        margin: 20px auto 30px auto;
     }
 
 }
