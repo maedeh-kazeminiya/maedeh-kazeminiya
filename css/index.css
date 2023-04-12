@@ -1,3 +1,4 @@
+
 * {
     font-family: "HuaweiSans-Bold", Helvetica, Arial, sans-serif;
 }
@@ -40,6 +41,16 @@
         border: 1px solid black;
         font-size: 13px;
     } 
+    .learn2 {
+      z-index: 5;
+      width: 150px;
+      height: 30px;
+      left:270px;
+      bottom:700px;
+      line-height:30px;
+      border: 1px solid black;
+      font-size: 13px;
+  } 
       
     .learn:hover {
         background-color: rgb(199, 0, 11);
@@ -135,7 +146,7 @@
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
     } */
 .div-h{
-    visibility: hidden;
+    display: none;
 }
     .img-p {
         bottom: -40px;
@@ -384,26 +395,35 @@
         background-color: rgb(161, 0, 0);
         margin-left:60px;
     }
-    .a-learn{
-        visibility: hidden;
+    .learn{
+      z-index: 5;
+      margin-bottom:10%;
+      width: 180px;
+      height: 40px;
+      left:-2%;
+      line-height: 40px;
+      border: 1px solid black;
     }
+    .a-learn{
+      color: black;
+  }
 
 
 
-    /* .learn2:hover {
+    .learn2:hover {
         background-color: rgb(199, 0, 11);
         border-color: rgb(199, 0, 11);
-    } */
+    }
 
-    /* .learn2 {
-        z-index: 5;
-        bottom: 200px;
-        width: 180px;
-        height: 40px;
-        margin-left: 1000px;
-        line-height: 40px;
-        border: 1px solid black;
-    } */
+    .learn2 {
+      z-index: 5;
+      left:75%;
+      margin-bottom:11%;
+      width: 180px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid black;
+    }
 
     /* */
 
@@ -698,10 +718,10 @@
 
     .learn {
         z-index: 5;
-        bottom: 170px;
+        margin-bottom:15%;
         width: 180px;
         height: 40px;
-        left: -20px;
+        left:-2%;
         line-height: 40px;
         border: 1px solid black;
     }
@@ -718,16 +738,16 @@
 
     .learn2 {
         z-index: 5;
-        bottom: 200px;
+        left:75%;
+        margin-bottom:11%;
         width: 180px;
         height: 40px;
-        margin-left: 1000px;
         line-height: 40px;
         border: 1px solid black;
     }
 
     .a-learn:hover {
-        color: white;
+        color: white !important;
     }
 
     .pics {
@@ -995,6 +1015,13 @@
     }
     .hide2{
         visibility: hidden;
+    }
+    .footer{
+      width:100%;
+      height:60px;
+      /* background-color: red; */
+      line-height: 60px;
+
     }
 
 }
