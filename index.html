@@ -17,26 +17,61 @@
 </head>
 
 <body>
-    <div class="container-fluide">
-        <div class="row">
-            <div class="col-12 div p-0"></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <ul>
+            <li class="li-nav"><a href="#" class="text-black"><i class="bi bi-bag"></i></a></li>
+            <li class="li-nav"><a href="#" class="text-black"><i class="bi bi-search"></i></a></li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
     <!-- .................................................................................................................................................................... -->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
                 <!-- <img src="images/full.jpg" class="d-block w-100 mwc" alt="..."> -->
                 <picture>
-                    <source media="(min-width:992px)" srcset="images/1.webp" class="d-block w-100 mwc">
-                    <img src="images/first.avif" alt="" class="d-block w-100 mwc">
+                    <source media="(min-width:992px)" srcset="images/spring.avif" class="d-block w-100 mwc">
+                    <img src="images/spring2.avif" alt="" class="d-block w-100 mwc">
                 </picture>
                 <div class="carousel-caption d-none d-md-block">
-                    <div class="learn position-relative text-center"><a class="a-learn w-100 text-decoration-none text-black" href="#">Learn More</a></div>
+                    <div class="learn position-relative text-center"><a class="a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <!-- <img src="images/1.webp" class="d-block w-100" alt="..."> -->
+                <picture>
+                    <source media="(min-width:992px)" srcset="images/p60.avif" class="d-block w-100 mwc">
+                    <img src="images/first.avif" alt="" class="d-block w-100 mwc">
+                </picture>
                 <div class="carousel-caption d-none d-md-block">
                     <div class="learn2 position-relative text-center"><a class="a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
@@ -60,15 +95,15 @@
         </div>
     </div>
     <!-- ............................................................................................................................... -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-12">
-                <a href="#" class="a-pics d-block mt-5">
+    <div class="container-lg">
+        <div class="row mt-3">
+            <div class="col-lg-8 col-12 p-0">
+                <a href="#" class="a-pics d-block mt-lg-5">
                     <div class="div1 position-relative p-0">
                         <!-- <img src="images/metabook.jpg" class="pics position-absolute w-100"> -->
                         <picture>
                     <source media="(min-width:992px)" srcset="images/metabook.jpg" class="pics position-absolute w-100 p-0">
-                    <img src="images/watch2.avif" alt="" class="pics position-absolute">
+                    <img src="images/watch2.avif" alt="" class="pics position-absolute w-100">
                         </picture>
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
@@ -80,9 +115,14 @@
                 </a>
             </div>
             <!-- .......................................................................................................................... -->
-            <div class="col-lg-4  p-0">
-                <a href="#" class="a-pics d-block mt-5">
-                    <div class="div1 w-100 position-relative"><img src="images/watch.jpg" class="pics position-absolute w-100">
+            <div class="col-lg-4  p-0 col-6">
+                <a href="#" class="a-pics d-block mt-lg-5">
+                    <div class="div1 div11 divm w-100 position-relative">
+                        <picture>
+                            <source media="(min-width:992px)" srcset="images/watch.jpg" class="pics position-absolute w-100 p-0">
+                            <img src="images/10.avif" alt="" class="pics picss position-absolute w-100">
+                                </picture>
+                        <!-- <img src="images/watch.jpg" class="pics position-absolute w-100"> -->
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
                             <strong>HUAWEI Watch GT3 Pro</strong><br>
@@ -95,7 +135,12 @@
 
             <div class="col-lg-4 col-6 p-0">
                 <a href="#" class="a-pics d-block">
-                    <div class="div2 w-100 position-relative"><img src="images/miss.jpg" class="pics position-absolute w-100">
+                    <div class="div2 div22 w-100 position-relative">
+                        <!-- <img src="images/miss.jpg" class="pics position-absolute w-100"> -->
+                        <picture>
+                            <source media="(min-width:992px)" srcset="images/miss.jpg" class="pics position-absolute w-100 p-0">
+                            <img src="images/20.avif" alt="" class="pics position-absolute w-100">
+                                </picture>
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
                             <strong>HUAWEI FreeBuds Pro 2</strong><br>
@@ -107,7 +152,12 @@
             </div>
             <div class="col-lg-8 col-6 p-0">
                 <a href="#" class="a-pics d-block">
-                    <div class="div2 w-100 position-relative"><img src="images/matepad.jpg" class="pics position-absolute w-100">
+                    <div class="div2 div22 w-100 position-relative">
+                        <!-- <img src="images/matepad.jpg" class="pics position-absolute w-100"> -->
+                        <picture>
+                            <source media="(min-width:992px)" srcset="images/matepad.jpg" class="pics position-absolute w-100 p-0">
+                            <img src="images/30.avif" alt="" class="pics position-absolute w-100">
+                                </picture>
                         <p class="img-p position-absolute text-white">PRODUCT<br>
                             <strong>HUAWEI Metepad Pro 11</strong><br>
                             <span class="span"> Powerful Productivity in Thinness</span><br>
@@ -116,9 +166,14 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 p-0">
+            <div class="col-lg-4 col-6 p-0">
                 <a href="#" class="a-pics d-block">
-                    <div class="div3 w-100 position-relative"><img src="images/phone.jpg" class="pics position-absolute w-100">
+                    <div class="div3 w-100 position-relative">
+                        <!-- <img src="images/phone.jpg" class="pics position-absolute w-100"> -->
+                        <picture>
+                            <source media="(min-width:992px)" srcset="images/phone.jpg" class="pics position-absolute w-100 p-0">
+                            <img src="images/40.avif" alt="" class="pics position-absolute w-100">
+                                </picture>
                         <p class="img-p position-absolute text-white">HuaweiTech<br>
                             <strong>ChatGPT Might be the Killer App Operators Are Waiting for</strong><br>
                             <span class="span2">learn more</span><span class="span1 text-danger"><i class="bi bi-chevron-right"></i></span>
@@ -126,9 +181,9 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 p-0">
+            <div class="col-4 p-0 div-h">
                 <a href="#" class="a-pics d-block">
-                    <div class="div3 w-100 position-relative"><img src="images/winwin.jpg" class="pics position-absolute w-100">
+                    <div class="div3 div22 w-100 position-relative"><img src="images/winwin.jpg" class="pics position-absolute w-100">
                         <p class="img-p position-absolute text-white">Winwin<br>
                             <strong>Seize the Moment: Accelerating 5G Prosperity</strong><br>
                             <span class="span2">learn more</span><span class="span1 text-danger"><i class="bi bi-chevron-right"></i></span>
@@ -136,7 +191,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 p-0">
+            <div class="col-4 p-0 div-h">
                 <a href="#" class="a-pics d-block">
                     <div class="div3 w-100 position-relative"><img src="images/air.jpg" class="pics position-absolute w-100">
                         <p class="img-p position-absolute text-white">INDUSTRY UPDATES<br>
@@ -172,7 +227,7 @@
     </div>
     <!-- .................................................................................................................................................................... -->
 
-    <div class="container">
+    <div class="container-lg">
         <div class="row">
             <div class="col-lg-4 col-12"><a href="#" class="text-decoration-none">
                     <div class="box-end w-100">
@@ -249,12 +304,12 @@
     </div>
     <!-- .................................................................................................................................................................... -->
     <div class="end w-100">
-        <div class="container">
+        <div class="container-lg">
             <div class="row">
-                <div class="col-7 mt-4 text-secondary">Home</div>
-                <div class="col-4">
+                <div class="col-7 mt-4 text-secondary home">Home</div>
+                <div class="col-lg-4 col-12">
                     <div class="search">
-                        <form action="#" id="form"><input type=text class="fw-bold text-black text-decoration-none d-block input" name="search"
+                        <form action="#" id="form"><input type=text class="fw-bold text-black text-decoration-none d-block w-100 input" name="search"
                                 placeholder=" &nbsp; Search Huawei.com">
                             </input></form>
                     </div>
@@ -262,9 +317,62 @@
             </div>
         </div>
         <div class="hr"></div>
+        <!-- .......................................................................................................................... -->
+        <div class="accordion accordion-flush hide2" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed drawer" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    About Huawei
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body drawer"><ul class="list-group list-group-flush">
+                    <li class="list-group-item drawer"><a href="#" class="list"> Our Company </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list"> Sustainability </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Trust Center </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Executives </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Careers </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Suppliers </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">See More </a></li>
+                  </ul></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed drawer" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    News & Events
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse drawer" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><ul class="list-group list-group-flush drawer">
+                    <li class="list-group-item drawer"><a href="#" class="list"> Media Center </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">  Events </a></li>
+                  </ul></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed drawer" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Explore Huawei 
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse drawer" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><ul class="list-group list-group-flush drawer">
+                    <li class="list-group-item drawer"><a href="#" class="list"> HuaweiTech </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list"> Intelligent World 2030  </a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Striding Towards</a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Huawei Blog</a></li>
+                    <li class="list-group-item drawer"><a href="#" class="list">Publications</a></li>
+                  </ul></div>
+              </div>
+            </div>
+          </div>
+        <!-- ............................................................................................ -->
+      
+        <!-- ............................................................................................... -->
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col hide">
                     <p class="list1"> About Huawei </p>
                     <a href="#" class="list"> Our Company </a>
                     <a href="#" class="list"> Sustainability </a>
@@ -274,13 +382,13 @@
                     <a href="#" class="list">Suppliers </a>
                     <a href="#" class="list">See More </a>
                 </div>
-                <div class="col">
+                <div class="col hide">
                     <p href="#" class="list1"> News & Events </p>
                     <a href="#" class="list"> Media Center </a>
                     <a href="#" class="list"> Events </a>
 
                 </div>
-                <div class="col">
+                <div class="col hide">
                     <p href="#" class="list1"> Explore Huawei </p>
                     <a href="#" class="list"> HuaweiTech </a>
                     <a href="#" class="list"> Intelligent World 2030</a>
@@ -288,14 +396,14 @@
                     <a href="#" class="list">Huawei Blog </a>
                     <a href="#" class="list">Publications </a>
                 </div>
-                <div class="col">
+                <div class="col hide">
                     <p href="#" class="list1">Products</p>
                     <a href="#" class="list">Consumer</a>
                     <a href="#" class="list">Enterprise</a>
                     <a href="#" class="list">Carrier </a>
                     <a href="#" class="list">Huawei Cloud </a>
                 </div>
-                <div class="col">
+                <div class="col hide">
                     <p href="#" class="list1">Support</p>
                     <a href="#" class="list">Consumer Support</a>
                     <a href="#" class="list">Huawei Cloud Support</a>
@@ -304,11 +412,12 @@
                     <a href="#" class="list">Security Bulletins</a>
                 </div>
                 <div class="hr mt-5"></div>
-                <div class="container">
+                <!-- ................................................................................................................................................. -->
+                <div class="container-lg">
                     <div class="row">
-                        <div class="col-3"><a href="#" class="icont text-decoration-none">Huawei Cloud</a><a href="#"
-                                class="icont text-decoration-none">FusionSolar Smart PV</a></div>
-                        <div class="col offset-6">
+                        <div class="col-lg-3 col-6 offset-3 offset-lg-0"><a href="#" class="icont text-decoration-none">Huawei Cloud</a><a href="#"
+                        class="icont text-decoration-none">FusionSolar Smart PV</a></div>
+                        <div class="col offset-lg-6 offset-3 insta">
                             <a href="#" class="icons text-decoration-none"><i class="bi bi-linkedin"></i></a>
                             <a href="#" class="icons text-decoration-none"><i class="bi bi-facebook"></i></a>
                             <a href="#" class="icons text-decoration-none"><i class="bi bi-twitter"></i></a>
@@ -319,23 +428,20 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="container-fluide">
         <div class="row">
             <div class="col">
                 <div class="gray">
-                    <p class="p-end d-flex justify-content-center fs-xxl-6">©2023 Huawei Technologies Co., Ltd.
+                    <div class="d-lg-flex justify-content-center footer">
+                    <p class="p-end d-flex justify-content-center fs-xxl-6">©2023 Huawei Technologies Co., Ltd.</p>
                         <a href="#" class="a-end text-decoration-none">Contact</a>
                         <a href="#" class="a-end text-decoration-none">Terms of Use</a>
                         <a href="#" class="a-end text-decoration-none">Privacy</a>
                         <a href="#" class="a-end text-decoration-none">Cookies</a>
-                    </p>
-
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
-
 </html>

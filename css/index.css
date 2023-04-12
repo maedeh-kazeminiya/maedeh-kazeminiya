@@ -3,6 +3,9 @@
 }
 
 @media all and (min-width:0px) and (max-width:991px) {
+    .li-nav{
+        list-style-type:none;
+    }
     .div {
         height: 80px;
         border-bottom: 1px solid gray;
@@ -19,7 +22,7 @@
         width: 60px;
         margin-top: 4px;
         background-color: rgb(161, 0, 0);
-        margin-left:65px;
+        margin-left:45px;
     }
     .a-learn{
         color: black;
@@ -46,18 +49,21 @@
         filter: brightness(90%);
         transform: scale(1);
         overflow: hidden;
-        transition-duration: 500ms;
-        transition-property: transform;
-        z-index: -50;
+        /* transition-duration: 500ms;
+        transition-property: transform; */
+        /* z-index: -50; */
         /* width: 960px; */
     }
+
     .span1 {
         font-size: 17px;
         margin-left: 2px;
+        visibility: hidden;
         /* transition-duration: 500ms; */
     }
     .span2{
         font-size: 17px;
+        visibility: hidden;
     }
 
     .span1:hover{
@@ -68,6 +74,7 @@
 
     .a-pics {
         margin: 15px;
+        background-color:#f5f5f5;
         /* background-color: rgba(0, 0, 255, 0.29); */
     }
 
@@ -83,18 +90,31 @@
       
     } */
     .div1 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height:540px;
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387)); */
+        height:600px;
         /* width: 960px; */
         overflow: hidden;
         /* margin-left:-148px; */
+    }
+    /* .divm{
+        margin-top: -30px;
+    } */
+    .div11{
+        
+            /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387)); */
+            height:410px;
     }
     /* .div1:hover{
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
     } */
     .div2 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251));
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251)); */
         height:400px;
+        overflow: hidden;
+    }
+    .div22 {
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251)); */
+        height:410px;
         overflow: hidden;
     }
     /* .div2:hover{
@@ -102,14 +122,21 @@
     } */
 
     .div3 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398));
-        height:245px;
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398)); */
+        height:410px;
         overflow: hidden;
     }
-    .div3:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
+    .div33 {
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398)); */
+        height:410px;
+        overflow: hidden;
     }
-
+    /* .div3:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
+    } */
+.div-h{
+    visibility: hidden;
+}
     .img-p {
         bottom: -40px;
         left: 20px;
@@ -244,16 +271,20 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height: 550px;
+        height: 800px;
         margin-top: 50px;
     }
+   
 
     .input {
         width: 500px;
         height: 45px;
-        margin-top: 24px;
+        margin-top:-30px;
         color: rgb(120, 120, 120);
         width: 400px;
+    }
+    .home{
+        visibility: hidden;
     }
 
     .list {
@@ -269,42 +300,55 @@
     }
 
     .hr {
-        width: 800px;
+        width: 98%;
         height: 1px;
         background-color: rgba(98, 98, 98, 0.145);
-        margin: 12px auto 30px auto;
+        margin: 20px auto 30px auto;
+    }
+    .drawer{
+        background-color: #f2f2f2;
+        height:60px;
     }
 
     .icons {
         color: rgba(51, 51, 51, 0.71);
         font-size: 28px;
-        margin-left: 20px;
+        margin-left: 25px;
     }
 
     .icons:hover {
         color: rgb(51, 51, 51);
     }
-
+    .insta{
+        padding-left:25px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
     .icont {
         color: rgba(51, 51, 51, 0.71);
-        font-size: 13px;
-        margin-left: 20px;
+        font-size: 15px;
+        margin-left: 40px;
     }
 
     .gray {
-        height: 50px;
+        height: 100px;
         background-color: #e6e6e6;
+        text-align: center;
     }
 
     .p-end {
-        padding-top: 10px;
+        padding-top: 20px;
         color: #666;
         font-size: 13px;
+        margin-left:15px;
     }
 
     .a-end {
-        margin-left: 25px;
+        margin-left: 20px;
         color: #666;
+        font-size: 13px;
+
     }
     .div-new{
         width:350px;
@@ -313,6 +357,9 @@
         /* padding-left:17px; */
         background-color:rgb(242, 242, 242);
         position:absolute;
+    }
+    .hide{
+        visibility: hidden;
     }
 
 }
@@ -556,7 +603,7 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height: 550px;
+        height: 700px;
         margin-top: 50px;
     }
 
@@ -723,7 +770,7 @@
     }
     .div1 {
         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height: 410px;
+        height: 400px;
         overflow: hidden;
     }
     .div1:hover{
@@ -876,7 +923,7 @@
 
     .end {
         background-color: rgb(242, 242, 242);
-        height: 550px;
+        height:750px;
         margin-top: 50px;
     }
 
@@ -923,18 +970,20 @@
     }
 
     .gray {
-        height: 50px;
+        margin-top:30px;
+        height: 60px;
         background-color: #e6e6e6;
     }
 
     .p-end {
-        padding-top: 10px;
+        /* padding-top: 15px; */
         color: #666;
     }
 
     .a-end {
         margin-left: 20px;
         color: #666;
+        /* padding-top: 15px; */
     }
     .div-new{
         width: 400px;
@@ -943,6 +992,9 @@
         /* padding-left:17px; */
         background-color:rgb(242, 242, 242);
         position:absolute;
+    }
+    .hide2{
+        visibility: hidden;
     }
 
 }
