@@ -1,0 +1,171 @@
+.learn {
+  margin-bottom: 10%;
+  width: 180px;
+  height: 40px;
+  left: -2%;
+  line-height: 40px;
+}
+.learn a {
+  color: black;
+}
+.learn2 {
+  left: 75%;
+  margin-bottom: 11%;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+}
+.button {
+  width: 100px !important;
+}
+.tex1 {
+  font-size: 30px;
+}
+.tex1::after {
+  margin-left: 60px;
+}
+.a-pics {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.387));
+  margin: 15px;
+}
+.a-pics:hover img {
+  transform: scale(1.1);
+}
+.a-pics:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), black);
+}
+.a-pics:hover p {
+  padding-bottom: 50px;
+  display: block;
+}
+.a-pics div {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.387));
+  height: 291px;
+}
+.a-pics div img {
+  filter: brightness(90%);
+  transform: scale(1);
+  overflow: hidden;
+  transition-duration: 500ms;
+  transition-property: transform;
+  z-index: -50;
+}
+.a-pics div p {
+  bottom: -40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.a-pics div p .span1 {
+  transition-duration: 500ms;
+}
+.a-pics .div2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.251));
+  height: 291px;
+}
+.a-pics .div2:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), black);
+}
+.a-pics .div3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.398));
+  height: 205px;
+}
+.a-pics .div3:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), black);
+}
+.cars {
+  display: none;
+}
+.tech-div {
+  border: 1px solid black;
+  height: 40px;
+  width: 180px;
+  bottom: 80px;
+  left: 550px;
+  line-height: 40px;
+}
+.box-end {
+  height: 450px;
+}
+.box-end:hover .pic-end {
+  transform: scale(1.1);
+}
+.div-end {
+  height: 450px;
+}
+.div-new {
+  width: 290px;
+  height: 35px;
+  z-index: 1;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+.pic-end {
+  transform: scale(1);
+  transition-duration: 600ms;
+}
+.strong-p {
+  margin-top: 3%;
+}
+.strong-1 {
+  margin-left: 30px;
+  font-size: 17px;
+}
+.p-1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.span-1 {
+  font-size: 15px;
+}
+.text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.span-mar {
+  font-size: 15px;
+}
+.more {
+  height: 40px;
+  line-height: 40px;
+}
+.more:hover {
+  background-color: #c7000b;
+  color: white;
+  border: 1px solid #c7000b;
+}
+.end {
+  height: 50%;
+}
+input {
+  margin-top: 24px;
+}
+.hr {
+  width: 85%;
+}
+.icons {
+  font-size: 28px;
+  margin-left: 5%;
+}
+.icont {
+  font-size: 13px;
+  margin-left: 5%;
+}
+.gray {
+  height: 50px;
+}
+.p-end {
+  padding-top: 10px;
+  font-size: 13px;
+}
+.a-end {
+  margin-left: 25px;
+  margin-top: 1%;
+  font-size: 13px;
+}
+.hide2 {
+  display: none;
+}
+.insta {
+  margin-bottom: 1.5%;
+}

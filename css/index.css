@@ -1,1072 +1,176 @@
-
-* {
-    font-family: "HuaweiSans-Bold", Helvetica, Arial, sans-serif;
+.li-nav {
+  list-style-type: none;
 }
-
-@media all and (min-width:0px) and (max-width:991px) {
-    .li-nav{
-        list-style-type:none;
-    }
-    .div {
-        height: 80px;
-        border-bottom: 1px solid gray;
-    }
-    
-    .tex1 {
-        font-size: 28px;
-    }
-    
-    .tex1::after {
-        content: "";
-        display:block;
-        height: 2px;
-        width: 60px;
-        margin-top: 4px;
-        background-color: rgb(161, 0, 0);
-        margin-left:45px;
-    }
-    .a-learn{
-        color: black;
-    }
-    .a-learn:hover {
-        color: white;
-    } 
-    .learn {
-        z-index: 5;
-        width: 150px;
-        height: 30px;
-        left:270px;
-        bottom:700px;
-        line-height:30px;
-        border: 1px solid black;
-        font-size: 13px;
-    } 
-    .learn2 {
-      z-index: 5;
-      width: 150px;
-      height: 30px;
-      left:270px;
-      bottom:700px;
-      line-height:30px;
-      border: 1px solid black;
-      font-size: 13px;
-  } 
-      
-    .learn:hover {
-        background-color: rgb(199, 0, 11);
-        border-color: rgb(199, 0, 11);
-    }
-    .pics {
-        filter: brightness(90%);
-        transform: scale(1);
-        overflow: hidden;
-        /* transition-duration: 500ms;
-        transition-property: transform; */
-        /* z-index: -50; */
-        /* width: 960px; */
-    }
-    .pic11{
-      display: none;
-    }
-
-    .span1 {
-        font-size: 17px;
-        margin-left: 2px;
-        /* visibility: hidden; */
-        display: none;
-        /* transition-duration: 500ms; */
-    }
-    .span2{
-        font-size: 17px;
-        /* visibility: hidden; */
-        display: none;
-    }
-
-    .span1:hover{
-        margin-left: 7px;
-    }
-
-
-
-    .a-pics {
-        margin: 15px;
-        background-color:#f5f5f5;
-        /* background-color: rgba(0, 0, 255, 0.29); */
-    }
-
-    /* .a-pics:hover img {
-        transform: scale(1.1);
-    } */
-
-    /* .a-pics:hover p {
-        padding-bottom:50px;
-    } */
-    /* .a-pics:hover p{
-        display:block;
-      
-    } */
-    .div1 {
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387)); */
-        height:600px;
-        /* width: 960px; */
-        overflow: hidden;
-        /* margin-left:-148px; */
-    }
-    /* .divm{
-        margin-top: -30px;
-    } */
-    .div11{
-        
-            /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387)); */
-            height:410px;
-    }
-    /* .div1:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    } */
-    .div2 {
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251)); */
-        height:400px;
-        overflow: hidden;
-    }
-    .div22 {
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251)); */
-        height:410px;
-        overflow: hidden;
-    }
-    /* .div2:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    } */
-
-    .div3 {
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398)); */
-        height:410px;
-        overflow: hidden;
-    }
-    .div33 {
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398)); */
-        height:410px;
-        overflow: hidden;
-    }
-    /* .div3:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    } */
-.div-h{
-    display: none;
+.learn {
+  z-index: 5;
+  border: 1px solid black;
 }
-    .img-p {
-        bottom: -40px;
-        left: 20px;
-        font-size:18px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        transition-duration: 500ms;
-    }
-    .span {
-        color: rgb(197, 192, 192);
-        font-size: 18px;
-    }
-
-    .tech-div {
-        /* border: 1px solid black;
-        height: 40px;
-        width: 180px;
-        bottom:100px;
-        left: 660px;
-        line-height: 40px; */
-        /* visibility: hidden; */
-        display: none;
-    }
-
-    .tech-div:hover {
-        background-color: rgb(199, 0, 11);
-        border: 1px solid rgb(199, 0, 11);
-        color: white;
-    }
-
-
-    .pic-tech {
-        margin-top: 100px;
-    }
-
-    /* .pic-end {
-        transform: scale(1);
-        transition-duration: 600ms;
-    } */
-
-    /* .box-end:hover .pic-end {
-        transform: scale(1.1);
-    } */
-
-    .box-end {
-        height: 450px;
-        background-color: rgb(248, 248, 248);
-        margin-top: 50px;
-        overflow: hidden;
-    }
-
-    .box-end:hover {
-        background-color: rgb(242, 242, 242);
-    }
-
-    .div-end {
-        height: 550px;
-        background-color: rgb(242, 242, 242);
-        margin-top: 50px;
-        overflow: auto;
-        box-shadow: inset -10px -30px 20px rgb(246, 249, 248);
-    }
-
-    .strong-1 {
-        margin-left:30px;
-        font-size: 17px;
-        padding-top: 50px;
-        letter-spacing: 1px;
-
-    }
-
-    .p-1 {
-        margin-left:20px;
-        margin-top: 20px;
-        font-size: 15px;
-    }
-
-    .strong-p {
-        margin-top: 20px;
-    }
-
-    .span-1 {
-        color: rgb(102, 102, 102);
-        font-size: 15px;
-    }
-
-    .event1 {
-        color: azure;
-        background-color: rgba(0, 0, 0, 0.359);
-        width: 80px;
-        height: 35px;
-        padding-left: 17px;
-        line-height: 35px;
-        font-size: 13px;
-        z-index: 10;
-    }
-    .text {
-        font-size: 15px;
-        margin-top:40px;
-        margin-left: 20px;
-        color: rgba(0, 0, 0, 0.842);
-    }
-
-    .text:hover{
-        color: rgb(199, 0, 11);
-    }
-    .span-mar{
-        color: gray;
-        font-size: 12px;
-    }
-    .span-mar:hover{
-        color: red;
-    }
-
-    .more {
-        height:30px;
-        margin-top: 50px;
-        border: 1px solid black;
-        line-height: 30px;
-        font-size: 14px;
-    }
-
-    /* .more:hover {
-        background-color: rgb(199, 0, 11);
-        color: white;
-        border: 1px solid rgb(199, 0, 11);
-    } */
-
-    .overflow {
-        height: 250px;
-        overflow: hidden;
-    }
-
-    .end {
-        background-color: rgb(242, 242, 242);
-        height: 540px;
-        margin-top: 50px;
-    }
-   
-
-    .input {
-        width: 500px;
-        height: 45px;
-        margin-top:20px;
-        color: rgb(120, 120, 120);
-        width: 400px;
-    }
-    .home{
-        /* visibility: hidden; */
-        display: none;
-    }
-
-    .list {
-        display: block;
-        margin-top: 15px;
-        text-decoration: none;
-        color: rgb(89, 87, 87);
-        font-size: 15px;
-    }
-
-    .list1 {
-        font-weight: 600;
-    }
-
-    .hr {
-        width: 98%;
-        height: 1px;
-        background-color: rgba(98, 98, 98, 0.145);
-        margin: 20px auto 30px auto;
-    }
-    .hr2{
-      /* display: none; */
-        width: 100%;
-        height: 1px;
-        background-color: rgba(98, 98, 98, 0.145);
-        margin: 20px auto 30px auto;
-    }
-    .drawer{
-        background-color: #f2f2f2;
-        height:60px;
-    }
-
-    .icons {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 28px;
-        margin-left: 25px;
-    }
-
-    .icons:hover {
-        color: rgb(51, 51, 51);
-    }
-    .insta{
-        padding-left:25px;
-        padding-top: 20px;
-        margin-bottom: 20px;
-        margin-top: 10px;
-    }
-    .icont {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 15px;
-        margin-left: 40px;
-    }
-
-    .gray {
-        height: 100px;
-        background-color: #e6e6e6;
-        text-align: center;
-    }
-
-    .p-end {
-        padding-top: 20px;
-        color: #666;
-        font-size: 13px;
-        margin-left:15px;
-    }
-
-    .a-end {
-        margin-left: 20px;
-        color: #666;
-        font-size: 13px;
-
-    }
-    .div-new{
-        width:350px;
-        height: 35px;
-        z-index:1;
-        /* padding-left:17px; */
-        background-color:rgb(242, 242, 242);
-        position:absolute;
-    }
-    .hide{
-        /* visibility: hidden; */
-        display: none;
-    }
-
+.learn:hover {
+  background-color: #c7000b !important;
+  border-color: #c7000b !important;
 }
-
-@media all and (min-width:992px) and (max-width:1399px) {
-    
-    .div {
-        height: 80px;
-        border-bottom: 1px solid gray;
-    }
-
-    .tex1 {
-        font-size: 30px;
-    }
-
-    .tex1::after {
-        content: "";
-        display:block;
-        height: 2px;
-        width: 60px;
-        margin-top: 4px;
-        background-color: rgb(161, 0, 0);
-        margin-left:60px;
-    }
-    .learn{
-      z-index: 5;
-      margin-bottom:10%;
-      width: 180px;
-      height: 40px;
-      left:-2%;
-      line-height: 40px;
-      border: 1px solid black;
-    }
-    .a-learn{
-      color: black;
-  }
-
-
-
-    .learn2:hover {
-        background-color: rgb(199, 0, 11);
-        border-color: rgb(199, 0, 11);
-    }
-
-    .learn2 {
-      z-index: 5;
-      left:75%;
-      margin-bottom:11%;
-      width: 180px;
-      height: 40px;
-      line-height: 40px;
-      border: 1px solid black;
-    }
-
-    /* */
-
-    .pics {
-        filter: brightness(90%);
-        transform: scale(1);
-        overflow: hidden;
-        transition-duration: 500ms;
-        transition-property: transform;
-        z-index: -50;
-    }
-    .span1 {
-        font-size: 17px;
-        margin-left: 2px;
-        transition-duration: 500ms;
-    }
-    .span2{
-        font-size: 17px;
-    }
-
-    .span1:hover{
-        margin-left: 7px;
-    }
-
-
-
-    .a-pics {
-        margin: 15px;
-    }
-
-    .a-pics:hover img {
-        transform: scale(1.1);
-    }
-
-    .a-pics:hover p {
-        padding-bottom:50px;
-    }
-    .a-pics:hover p{
-        display:block;
-      
-    }
-    .div1 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height:291px;
-        overflow: hidden;
-    }
-    .div1:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-    .div2 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251));
-        height:291px;
-        overflow: hidden;
-    }
-    .div2:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-
-    .div3 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398));
-        height:205px;
-        overflow: hidden;
-    }
-    .div3:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-
-    .img-p {
-        bottom: -40px;
-        left: 20px;
-        font-size:18px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        transition-duration: 500ms;
-    }
-    .span {
-        color: rgb(197, 192, 192);
-        font-size: 18px;
-    }
-
-    .tech-div {
-        border: 1px solid black;
-        height: 40px;
-        width: 180px;
-        bottom:80px;
-        left: 550px;
-        line-height: 40px;
-    }
-
-    .tech-div:hover {
-        background-color: rgb(199, 0, 11);
-        border: 1px solid rgb(199, 0, 11);
-        color: white;
-    }
-
-
-    .pic-tech {
-        margin-top: 100px;
-    }
-
-    .pic-end {
-        transform: scale(1);
-        transition-duration: 600ms;
-    }
-
-    .box-end:hover .pic-end {
-        transform: scale(1.1);
-    }
-
-    .box-end {
-        height: 450px;
-        background-color: rgb(248, 248, 248);
-        margin-top: 50px;
-        overflow: hidden;
-    }
-
-    .box-end:hover {
-        background-color: rgb(242, 242, 242);
-    }
-
-    .div-end {
-        height: 450px;
-        background-color: rgb(242, 242, 242);
-        margin-top: 50px;
-        overflow: auto;
-        box-shadow: inset -10px -30px 20px rgb(246, 249, 248);
-    }
-
-    .strong-1 {
-        margin-left:30px;
-        font-size: 17px;
-        padding-top: 50px;
-        letter-spacing: 1px;
-
-    }
-
-    .p-1 {
-        margin-left:20px;
-        margin-top: 20px;
-        font-size: 15px;
-    }
-
-    .strong-p {
-        margin-top:3%;
-    }
-
-    .span-1 {
-        color: rgb(102, 102, 102);
-        font-size: 15px;
-    }
-
-    .event1 {
-        color: azure;
-        background-color: rgba(0, 0, 0, 0.359);
-        width: 80px;
-        height: 35px;
-        padding-left: 17px;
-        line-height: 35px;
-        font-size: 13px;
-        z-index: 10;
-    }
-    .text {
-        font-size: 16px;
-        margin-top: 20px;
-        margin-left: 20px;
-        color: rgba(0, 0, 0, 0.842);
-    }
-
-    .text:hover{
-        color: rgb(199, 0, 11);
-    }
-    .span-mar{
-        color: gray;
-        font-size: 15px;
-    }
-    .span-mar:hover{
-        color: red;
-    }
-
-    .more {
-        height: 40px;
-        margin-top: 50px;
-        border: 1px solid black;
-        line-height: 40px;
-    }
-
-    .more:hover {
-        background-color: rgb(199, 0, 11);
-        color: white;
-        border: 1px solid rgb(199, 0, 11);
-    }
-
-    .overflow {
-        height: 250px;
-        overflow: hidden;
-    }
-
-    .end {
-        background-color: rgb(242, 242, 242);
-        height:50%;
-        margin-top: 50px;
-    }
-
-    input {
-        width: 500px;
-        height: 45px;
-        margin-top: 24px;
-        color: rgb(120, 120, 120);
-    }
-
-    .list {
-        display: block;
-        margin-top: 15px;
-        text-decoration: none;
-        color: rgb(89, 87, 87);
-        font-size: 15px;
-    }
-
-    .list1 {
-        font-weight: 600;
-    }
-
-    .hr {
-        width:85%;
-        height: 1px;
-        background-color: rgba(98, 98, 98, 0.145);
-        margin: 12px auto 30px auto;
-    }
-
-    .icons {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 28px;
-        margin-left:5%;
-    }
-    .insta{
-margin-bottom: 1.5%;
-    }
-
-    .icons:hover {
-        color: rgb(51, 51, 51);
-    }
-
-    .icont {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 13px;
-        margin-left:5%;
-    }
-
-    .gray {
-        height: 50px;
-        background-color: #e6e6e6;
-        /* line-height: 50px; */
-    }
-
-    .p-end {
-        padding-top: 10px;
-        color: #666;
-        font-size: 13px;
-    }
-
-    .a-end {
-        margin-left: 25px;
-        margin-top: 1%;
-        font-size: 13px;
-        color: #666;
-    }
-    .div-new{
-        width:290px;
-        height: 35px;
-        z-index:1;
-        /* padding-left:17px; */
-        background-color:rgb(242, 242, 242);
-        position:absolute;
-    }
-    .cars{
-      display: none;
-    }
-    .hide2{
-      display: none;
-  }
-  .hr2{
-    /* display: none; */
-      width: 100%;
-      height: 1px;
-      background-color: rgba(98, 98, 98, 0.145);
-      margin: 20px auto 30px auto;
-  }
-
+.learn:hover a:hover {
+  color: white !important;
 }
-
-
-@media all and (min-width:1400px) {
-    .div {
-        height: 80px;
-        border-bottom: 1px solid gray;
-    }
-
-    .tex1 {
-        font-size: 35px;
-    }
-
-    .tex1::after {
-        content: "";
-        display:block;
-        height: 2px;
-        width: 60px;
-        margin-top: 4px;
-        background-color: rgb(161, 0, 0);
-        margin-left: 70px;
-    }
-
-    .learn {
-        z-index: 5;
-        margin-bottom:15%;
-        width: 180px;
-        height: 40px;
-        left:-2%;
-        line-height: 40px;
-        border: 1px solid black;
-    }
-
-    .learn:hover {
-        background-color: rgb(199, 0, 11);
-        border-color: rgb(199, 0, 11);
-    }
-
-    .learn2:hover {
-        background-color: rgb(199, 0, 11);
-        border-color: rgb(199, 0, 11);
-    }
-
-    .learn2 {
-        z-index: 5;
-        left:75%;
-        margin-bottom:11%;
-        width: 180px;
-        height: 40px;
-        line-height: 40px;
-        border: 1px solid black;
-    }
-
-    .a-learn:hover {
-        color: white !important;
-    }
-
-    .pics {
-        filter: brightness(90%);
-        transform: scale(1);
-        overflow: hidden;
-        transition-duration: 500ms;
-        transition-property: transform;
-        z-index: -50;
-    }
-    .span1 {
-        font-size: 17px;
-        margin-left: 2px;
-        transition-duration: 500ms;
-    }
-    .span2{
-        font-size: 17px;
-    }
-
-    .span1:hover{
-        margin-left: 7px;
-    }
-
-
-
-    .a-pics {
-        margin: 15px;
-    }
-
-    .a-pics:hover img {
-        transform: scale(1.1);
-    }
-
-    .a-pics:hover p {
-        padding-bottom:50px;
-    }
-    .a-pics:hover p{
-        display:block;
-      
-    }
-    .div1 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.387));
-        height: 400px;
-        overflow: hidden;
-    }
-    .div1:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-    .div2 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.251));
-        height: 411px;
-        overflow: hidden;
-    }
-    .div2:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-
-    .div3 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.398));
-        height: 289px;
-        overflow: hidden;
-    }
-    .div3:hover{
-        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),black);
-    }
-
-    .img-p {
-        bottom: -50px;
-        left: 20px;
-        font-size: 22px;
-        letter-spacing: 1px;
-        line-height: 35px;
-        transition-duration: 500ms;
-    }
-    .span {
-        color: rgb(197, 192, 192);
-        font-size: 18px;
-    }
-
-    .tech-div {
-        border: 1px solid black;
-        height: 45px;
-        width: 180px;
-        bottom: 150px;
-        left: 900px;
-        line-height: 45px;
-    }
-
-    .tech-div:hover {
-        background-color: rgb(199, 0, 11);
-        border: 1px solid rgb(199, 0, 11);
-        color: white;
-    }
-
-
-    .pic-tech {
-        margin-top: 100px;
-    }
-
-    .pic-end {
-        transform: scale(1);
-        transition-duration: 800ms;
-    }
-
-    .box-end:hover .pic-end {
-        transform: scale(1.1);
-    }
-
-    .box-end {
-        height: 480px;
-        background-color: rgb(248, 248, 248);
-        margin-top: 50px;
-        overflow: hidden;
-    }
-
-    .box-end:hover {
-        background-color: rgb(242, 242, 242);
-    }
-
-    .div-end {
-        height: 480px;
-        background-color: rgb(242, 242, 242);
-        margin-top: 50px;
-        overflow: auto;
-        box-shadow: inset -10px -30px 20px rgb(246, 249, 248);
-    }
-
-    .strong-1 {
-        margin-left: 50px;
-        font-size: 18px;
-        padding-top: 50px;
-        letter-spacing: 1px;
-
-    }
-
-    .p-1 {
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    .strong-p {
-        margin-top: 20px;
-    }
-
-    .span-1 {
-        color: rgb(102, 102, 102);
-    }
-
-    .event1 {
-        color: azure;
-        background-color: rgba(0, 0, 0, 0.359);
-        width: 80px;
-        height: 35px;
-        padding-left: 17px;
-        line-height: 35px;
-        font-size: 13px;
-        z-index: 10;
-    }
-
-    .text {
-        font-size: 18px;
-        margin-top: 27px;
-        margin-left: 20px;
-        color: rgba(0, 0, 0, 0.842);
-    }
-    .text:hover{
-        color: rgb(199, 0, 11);
-    }
-    .span-mar{
-        color: gray;
-    }
-    .span-mar:hover{
-        color: red;
-    }
-
-    .more {
-        height: 40px;
-        margin-top: 50px;
-        border: 1px solid black;
-        line-height: 40px;
-    }
-
-    .more:hover {
-        background-color: rgb(199, 0, 11);
-        color: white;
-        border: 1px solid rgb(199, 0, 11);
-    }
-
-    .overflow {
-        height: 250px;
-        overflow: hidden;
-    }
-
-    .end {
-        background-color: rgb(242, 242, 242);
-        height:600px;
-        margin-top: 50px;
-    }
-
-    input {
-        width: 500px;
-        height: 45px;
-        margin-top: 24px;
-        color: rgb(120, 120, 120);
-    }
-
-    .list {
-        display: block;
-        margin-top: 15px;
-        text-decoration: none;
-        color: rgb(89, 87, 87);
-        font-size: 15px;
-    }
-
-    .list1 {
-        font-weight: 600;
-    }
-
-    .hr {
-        width: 1300px;
-        height: 1px;
-        background-color: rgba(98, 98, 98, 0.145);
-        margin: 12px auto 30px auto;
-    }
-
-    .icons {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 29px;
-        margin-left: 20px;
-    }
-
-    .icons:hover {
-        color: rgb(51, 51, 51);
-    }
-
-    .icont {
-        color: rgba(51, 51, 51, 0.71);
-        font-size: 15px;
-        margin-left: 20px;
-    }
-
-    .gray {
-        margin-top:30px;
-        height: 60px;
-        background-color: #e6e6e6;
-    }
-
-    .p-end {
-        /* padding-top: 15px; */
-        color: #666;
-    }
-
-    .a-end {
-        margin-left: 20px;
-        color: #666;
-        /* padding-top: 15px; */
-    }
-    .div-new{
-        width: 400px;
-        height: 35px;
-        z-index:1;
-        /* padding-left:17px; */
-        background-color:rgb(242, 242, 242);
-        position:absolute;
-    }
-    .hide2{
-        /* visibility: hidden; */
-        display: none;
-    }
-    .footer{
-      width:100%;
-      height:60px;
-      /* background-color: red; */
-      line-height: 60px;
-
-    }
-    .cars{
-      display: none;
-    }
-    .hr2{
-      /* display: none; */
-        width: 100%;
-        height: 1px;
-        background-color: rgba(98, 98, 98, 0.145);
-        margin: 20px auto 30px auto;
-    }
-
+.learn2 {
+  z-index: 5;
+  border: 1px solid black;
+}
+.learn2:hover {
+  background-color: #c7000b !important;
+  border-color: #c7000b !important;
+}
+.learn2:hover a:hover {
+  color: white !important;
+}
+.button {
+  width: 100px !important;
+}
+.tex1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 60px;
+  margin-top: 4px;
+  background-color: #a10000;
+}
+.a-pics {
+  margin: 15px;
+}
+.a-pics div {
+  overflow: hidden;
+}
+.a-pics div p {
+  left: 20px;
+  letter-spacing: 1px;
+  transition-duration: 500ms;
+}
+.a-pics div p .span {
+  color: #c5c0c0;
+  font-size: 18px;
+}
+.a-pics div p .span2 {
+  font-size: 17px;
+}
+.a-pics div p .span1 {
+  font-size: 17px;
+  margin-left: 2px;
+  transition-duration: 500ms;
+}
+.a-pics div p .span1:hover {
+  margin-left: 7px;
+}
+.a-pics .div2 {
+  overflow: hidden;
+}
+.a-pics .div3 {
+  overflow: hidden;
+}
+.pic-tech {
+  margin-top: 100px;
+}
+.tech-div:hover {
+  background-color: #c7000b;
+  border: 1px solid #c7000b;
+  color: white;
+}
+.box-end {
+  background-color: #f8f8f8;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.box-end:hover {
+  background-color: #f2f2f2;
+}
+.div-end {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  overflow: auto;
+  box-shadow: inset -10px -30px 20px #f6f9f8;
+}
+.event1 {
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.359);
+  width: 80px;
+  height: 35px;
+  padding-left: 17px;
+  line-height: 35px;
+  font-size: 13px;
+  z-index: 10;
+}
+.overflow {
+  height: 250px;
+  overflow: hidden;
+}
+.strong-1 {
+  padding-top: 50px;
+  letter-spacing: 1px;
+}
+.span-1 {
+  color: #666666;
+}
+.text {
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.842);
+}
+.text:hover {
+  color: #c7000b;
+}
+.span-mar {
+  color: gray;
+}
+.span-mar:hover {
+  color: red;
+}
+.more {
+  margin-top: 50px;
+  border: 1px solid black;
+}
+.end {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+}
+.input {
+  width: 500px;
+  height: 45px;
+  color: #787878;
+}
+.hr {
+  height: 1px;
+  background-color: rgba(98, 98, 98, 0.145);
+  margin: 12px auto 30px auto;
+}
+.list {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #595757;
+  font-size: 15px;
+}
+.list1 {
+  font-weight: 600;
+}
+.hr2 {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(98, 98, 98, 0.145);
+  margin: 20px auto 30px auto;
+}
+.icons {
+  color: rgba(51, 51, 51, 0.71);
+}
+.icons:hover {
+  color: #333333;
+}
+.icont {
+  color: rgba(51, 51, 51, 0.71);
+}
+.gray {
+  background-color: #e6e6e6;
+}
+.p-end {
+  color: #666;
+}
+.a-end {
+  color: #666;
 }

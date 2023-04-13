@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-extrasmall.css" media="all and (max-width:991px)">
+    <link rel="stylesheet" href="css/index-lg.css" media="all and (min-width:992px) and (max-width:1199px)">
+    <link rel="stylesheet" href="css/index-xl.css" media="all and (min-width:1200px)">
+    <title>huawei</title>
 </head>
-
+<!-- ................................................................................................................ -->
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-xl bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="images/huawei.webp" alt="" class="navbar w-50 ms-5"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-xl-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#"><strong>Consumer Products</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#"><strong>Business Products</strong></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>Support</strong></a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -43,78 +42,80 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link"><strong>Partners & Developers</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"><strong>About Huawei</strong></a>
               </li>
             </ul>
-            <ul>
-            <li class="li-nav"><a href="#" class="text-black"><i class="bi bi-bag"></i></a></li>
-            <li class="li-nav"><a href="#" class="text-black"><i class="bi bi-search"></i></a></li>
+            <ul class="d-flex">
+            <li class="li-nav"><a href="#" class="text-black fs-5"><i class="bi bi-bag"></i></a></li>
+            <li class="li-nav"><a href="#" class="text-black me-5 fs-5"><i class="bi bi-search"></i></a></li>
             </ul>
           </div>
         </div>
       </nav>
-    <!-- .................................................................................................................................................................... -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <!-- .......................................................................................................... -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active button" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="button"></button>
+            </div>
             <div class="carousel-item active" data-bs-interval="10000">
-                <!-- <img src="images/full.jpg" class="d-block w-100 mwc" alt="..."> -->
                 <picture>
-                    <source media="(min-width:992px)" srcset="images/spring.avif" class="d-block w-100 mwc">
-                    <img src="images/spring2.avif" alt="" class="d-block w-100 mwc">
+                    <source media="(min-width:992px)" srcset="images/spring.avif" class="d-block w-100">
+                    <img src="images/spring2.avif" alt="" class="d-block w-100">
                 </picture>
                 <div class="carousel-caption d-none d-md-block">
                     <div class="learn position-relative text-center"><a class="a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <!-- <img src="images/1.webp" class="d-block w-100" alt="..."> -->
                 <picture>
-                    <source media="(min-width:992px)" srcset="images/p60.avif" class="d-block w-100 mwc">
-                    <img src="images/first.avif" alt="" class="d-block w-100 mwc">
+                    <source media="(min-width:992px)" srcset="images/p60.avif" class="d-block w-100">
+                    <img src="images/first.avif" alt="" class="d-block w-100">
                 </picture>
                 <div class="carousel-caption d-none d-md-block">
-                    <div class="learn2 position-relative text-center"><a class="a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
+                    <div class="learn2 position-relative text-center"><a class=" a-learn w-100 d-block text-decoration-none text-black" href="#">Learn More</a></div>
                 </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon bg-danger text-danger" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon bg-danger text-danger" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- ............................................................................................................................ -->
+    <!-- .................................................................................................. -->
     <div class="container">
         <div class="row">
             <div class="col-6 offset-5 mt-5 p-0 fw-bold tex1">What's New</div>
         </div>
     </div>
-    <!-- ............................................................................................................................... -->
+    <!-- ....................................................................................................... -->
     <div class="container-lg">
         <div class="row mt-3">
             <div class="col-lg-8 col-12 p-0 pic11">
                 <a href="#" class="a-pics d-block mt-lg-5">
                     <div class="div1 position-relative p-0">
-                        <!-- <img src="images/metabook.jpg" class="pics position-absolute w-100"> -->
-                        <!-- <picture>
-                    <source media="(min-width:992px)" srcset="images/metabook.jpg" class="pics position-absolute w-100 p-0"> -->
                     <img src="images/metabook.jpg" alt="" class="pics position-absolute w-100 ">
-                        <!-- </picture> -->
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
                             <strong>HUAWEI MateBook X Pro</strong><br>
                             <span class="span">See Greatness in Lightness</span><br>
-                        <span class="span2">learn more</span><span class="span1 text-danger"><i class="bi bi-chevron-right"></i></span>
+                        <span class="span2">learn more</span>
+                        <span class="span1 text-danger"><i class="bi bi-chevron-right"></i></span>
                         </p>
                     </div>
                 </a>
             </div>
-            <!-- ...................................................................................... -->
+            <!-- ......................................................................................................................... -->
             <div id="carouselExampleIndicators" class="carousel slide cars">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -141,15 +142,14 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-            <!-- .......................................................................................................................... -->
-            <div class="col-lg-4  p-0 col-6">
+              <!-- ....................................................................................................................... -->
+              <div class="col-lg-4  p-0 col-6">
                 <a href="#" class="a-pics d-block mt-lg-5">
                     <div class="div1 div11 divm w-100 position-relative">
                         <picture>
                             <source media="(min-width:992px)" srcset="images/watch.jpg" class="pics position-absolute w-100 p-0">
                             <img src="images/10.avif" alt="" class="pics picss position-absolute w-100">
                                 </picture>
-                        <!-- <img src="images/watch.jpg" class="pics position-absolute w-100"> -->
                         <p class="img-p position-absolute text-white">
                             PRODUCT<br>
                             <strong>HUAWEI Watch GT3 Pro</strong><br>
@@ -163,7 +163,6 @@
             <div class="col-lg-4 col-6 p-0">
                 <a href="#" class="a-pics d-block">
                     <div class="div2 div22 w-100 position-relative">
-                        <!-- <img src="images/miss.jpg" class="pics position-absolute w-100"> -->
                         <picture>
                             <source media="(min-width:992px)" srcset="images/miss.jpg" class="pics position-absolute w-100 p-0">
                             <img src="images/20.avif" alt="" class="pics position-absolute w-100">
@@ -180,7 +179,6 @@
             <div class="col-lg-8 col-6 p-0">
                 <a href="#" class="a-pics d-block">
                     <div class="div2 div22 w-100 position-relative">
-                        <!-- <img src="images/matepad.jpg" class="pics position-absolute w-100"> -->
                         <picture>
                             <source media="(min-width:992px)" srcset="images/matepad.jpg" class="pics position-absolute w-100 p-0">
                             <img src="images/30.avif" alt="" class="pics position-absolute w-100">
@@ -196,7 +194,6 @@
             <div class="col-lg-4 col-6 p-0">
                 <a href="#" class="a-pics d-block">
                     <div class="div3 w-100 position-relative">
-                        <!-- <img src="images/phone.jpg" class="pics position-absolute w-100"> -->
                         <picture>
                             <source media="(min-width:992px)" srcset="images/phone.jpg" class="pics position-absolute w-100 p-0">
                             <img src="images/40.avif" alt="" class="pics position-absolute w-100">
@@ -231,31 +228,26 @@
         </div>
     </div>
     </div>
-    <!-- ....................................................................................................................... -->
-   
-    <!-- ................................................................................................................................................................... -->
+    <!-- ............................................................................................................................. -->
     <div class="container-fluide">
         <div class="row">
             <div class="col-12">
-                <!-- <img src="images/tech.jpg" class="w-100 pic-tech position-relative"> -->
                 <picture>
-                    <source media="(min-width:992px)" srcset="images/tech.jpg" class="w-100 pic-tech position-relative">
+                    <source media="(min-width:992px)" srcset="images/tech.jpg" class=" pic-tech w-100 position-relative">
                     <img src="images/moraba.avif" alt="" class="w-100 pic-tech position-relative">
                         </picture>
-                <a href="#" class="tech-a d-block text-black position-absolute">
+                <a href="#" class=" d-block text-black position-absolute">
                     <div class="tech-div position-absolute text-center">Learn More</div>
                 </a></div>
         </div>
     </div>
-    <!-- .................................................................................................................................................................... -->
-
+    <!-- ............................................................................................................ -->
     <div class="container">
         <div class="row">
             <div class="col-6 offset-5 mt-5 p-0 fw-bold tex1">News & Events</div>
         </div>
     </div>
-    <!-- .................................................................................................................................................................... -->
-
+    <!-- .......................................................................................................... -->
     <div class="container-lg">
         <div class="row">
             <div class="col-lg-4 col-12"><a href="#" class="text-decoration-none">
@@ -324,14 +316,14 @@
             </div>
         </div>
     </div>
-    <!-- .................................................................................................................................................................... -->
+    <!-- ......................................................................................................................................................... -->
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-3 offset-lg-4 offset-3"><a href="#" class="more text-center d-block text-decoration-none text-black">More Events</a></div>
             <div class="col-lg-2 col-3"><a href="#" class="more text-center d-block text-decoration-none text-black">More News</a></div>
         </div>
     </div>
-    <!-- .................................................................................................................................................................... -->
+    <!-- ................................................................................................................. -->
     <div class="end w-100">
         <div class="container-lg">
             <div class="row">
@@ -346,7 +338,7 @@
             </div>
         </div>
         <div class="hr"></div>
-        <!-- .......................................................................................................................... -->
+        <!-- .................................................................................................................. -->
         <div class="accordion accordion-flush hide2" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -396,10 +388,8 @@
               </div>
             </div>
           </div>
-        <!-- ............................................................................................ -->
-      
-        <!-- ............................................................................................... -->
-        <div class="container">
+          <!-- ................................................................................................................................ -->
+          <div class="container">
             <div class="row">
                 <div class="col hide">
                     <p class="list1"> About Huawei </p>
@@ -441,7 +431,7 @@
                     <a href="#" class="list">Security Bulletins</a>
                 </div>
                 <div class="hr2 mt-lg-5"></div>
-                <!-- ................................................................................................................................................. -->
+                <!-- ................................................................................................................ -->
                 <div class="container-lg">
                     <div class="row">
                         <div class="col-lg-3 col-6 offset-3 offset-lg-0"><a href="#" class="icont text-decoration-none">Huawei Cloud</a><a href="#"
@@ -472,5 +462,6 @@
             </div>
         </div>
     </div>
+    <!-- ........................................................................................................................... -->
 </body>
 </html>
