@@ -2,20 +2,23 @@
   display: none;
 }
 .learn {
-  width: 25%;
+  width: calc(130px + 3vw);
   height: 4vh;
-  left: 40%;
-  margin-bottom: 99%;
-  line-height: 30px;
-  font-size: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 93%;
+  line-height: 4vh;
 }
 .learn2 {
-  width: 25%;
+  width: calc(130px + 3vw);
   height: 4vh;
-  left: 40%;
-  margin-bottom: 99%;
-  line-height: 30px;
-  font-size: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 93%;
+  line-height: 4vh;
+}
+.a-learn {
+  font-size: calc(10px + 0.5vw);
 }
 .button {
   width: 10px !important;
@@ -27,22 +30,26 @@
   font-size: 28px;
 }
 .tex1::after {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .pic11 {
   display: none;
 }
 .a-pics {
   background: #f5f5f5;
+  height: calc(100px + 30vw);
 }
 .div1 {
-  height: 600px;
+  height: 400px;
 }
 .img-p {
-  bottom: -40px;
-  font-size: 18px;
-  line-height: 30px;
+  bottom: 0;
+  font-size: 15px;
+  line-height: 20px;
   color: black !important;
+}
+.span {
+  display: none;
 }
 .span1 {
   display: none;
@@ -51,27 +58,24 @@
   display: none;
 }
 .div11 {
-  height: 410px;
-}
-.div2 {
-  height: 400px;
+  height: calc(100px + 32vw);
+  background-color: #f5f5f5;
 }
 .div22 {
-  height: 410px;
+  height: calc(100px + 32vw);
   overflow: hidden;
-}
-.div3 {
-  height: 410px;
 }
 .div33 {
-  height: 410px;
-  overflow: hidden;
+  height: calc(100px + 32vw);
 }
 .div-h {
   display: none;
 }
 .tech-div {
   display: none;
+}
+.pic-tech {
+  margin-top: 50px;
 }
 .box-end {
   height: 450px;
@@ -104,7 +108,7 @@
 .more {
   height: 30px;
   line-height: 30px;
-  font-size: 14px;
+  font-size: calc(8px + 1vw);
 }
 .end {
   height: 540px;
@@ -117,12 +121,11 @@
   width: 98%;
 }
 .icons {
-  font-size: 28px;
-  margin-left: 25px;
+  font-size: calc(20px + 1vw);
+  margin-left: 15px;
 }
 .icont {
   font-size: 15px;
-  margin-left: 40px;
 }
 .gray {
   height: 100px;
@@ -133,10 +136,8 @@
   height: 60px;
 }
 .insta {
-  padding-left: 25px;
-  padding-top: 20px;
   margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 .p-end {
   padding-top: 20px;
