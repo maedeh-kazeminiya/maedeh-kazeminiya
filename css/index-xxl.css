@@ -22,7 +22,8 @@
   font-size: 35px;
 }
 .tex1::after {
-  margin-left: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .a-pics {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.387));

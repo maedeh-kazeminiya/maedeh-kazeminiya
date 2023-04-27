@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar navbar-expand-xl bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/huawei.webp" alt="" class="w-50 ms-xl-5 navbar"></a>
+            <a class="navbar-brand nav-icon" href="#"><img src="images/huawei.webp" alt="" class="w-50 ms-xl-5 navbar"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,13 +31,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="mx-auto mb-2 mb-xl-0 navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"><strong>Consumer Products</strong></a>
+                        <a class="nav-link me-4" aria-current="page" href="#"><strong>Consumer Products</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><strong>Business Products</strong></a>
+                        <a class="nav-link me-4" href="#"><strong>Business Products</strong></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle me-4" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false"><strong>Support</strong></a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -49,14 +49,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"><strong>Partners & Developers</strong></a>
+                        <a class="nav-link me-4"><strong>Partners & Developers</strong></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><strong>About Huawei</strong></a>
-                    </li>
+                    
                 </ul>
                 <ul class="d-flex">
-                    <li class="li-nav"><a href="#" class="text-black fs-5"><i class="bi bi-bag"></i></a></li>
+                    <li class="li-nav"><a href="#" class="text-black fs-5 me-4"><i class="bi bi-bag"></i></a></li>
                     <li class="li-nav"><a href="#" class="text-black me-5 fs-5"><i class="bi bi-search"></i></a></li>
                 </ul>
             </div>
@@ -106,14 +104,14 @@
     <!-- .................................................................................................. -->
     <div class="container">
         <div class="row">
-            <div class="col-5 offset-4 offset-lg-5  mt-5 p-0 fw-bold tex1">What's New</div>
+            <div class="col-5 offset-4 text-center mt-5 p-0 fw-bold tex1">What's New</div>
         </div>
     </div>
     <!-- ....................................................................................................... -->
     <div class="container-lg">
         <div class="row mt-3">
             <div class="col-lg-8 col-12 p-0 pic11">
-                <a href="#" class="d-block mt-lg-5 w-100  a-pics">
+                <a href="#" class="d-block mt-lg-5 a-pics">
                     <div class="position-relative p-0 div1">
                         <img src="images/metabook.jpg" alt="" class="position-absolute w-100  pics">
                         <p class=" position-absolute text-white img-p">
@@ -126,6 +124,7 @@
                     </div>
                 </a>
             </div>
+          
             <!-- ......................................................................................................................... -->
             <div id="carouselExampleIndicators" class="carousel slide cars">
                 <div class="carousel-indicators">
@@ -164,7 +163,7 @@
                     <div class=" w-100 position-relative div1 div11 divm">
                         <picture>
                             <source media="(min-width:992px)" srcset="images/watch.jpg"
-                                class=" position-absolute w-100 p-0 pics">
+                                class=" position-absolute p-0 pics">
                             <img src="images/10.avif" alt="" class=" position-absolute w-100 pics picss">
                         </picture>
                         <p class=" position-absolute text-white img-p">
@@ -197,7 +196,7 @@
                 </a>
             </div>
             <div class="col-lg-8 col-6 p-0">
-                <a href="#" class=" d-block a-pics">
+                <a href="#" class=" d-block a-pics ">
                     <div class=" w-100 position-relative div2 div11">
                         <picture>
                             <source media="(min-width:992px)" srcset="images/matepad.jpg"
@@ -257,7 +256,7 @@
     </div>
     </div>
     <!-- ............................................................................................................................. -->
-    <div class="container-fluide">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <picture>
@@ -274,7 +273,7 @@
     <!-- ............................................................................................................ -->
     <div class="container">
         <div class="row">
-            <div class="col-6 offset-4 offset-lg-5 mt-5 p-0 fw-bold tex1">News & Events</div>
+            <div class="col-6 offset-3 mt-5 p-0 fw-bold text-center tex1">News & Events</div>
         </div>
     </div>
     <!-- .......................................................................................................... -->
@@ -381,7 +380,7 @@
         </div>
         <div class="hr"></div>
         <!-- .................................................................................................................. -->
-        <div class="accordion accordion-flush hide2" id="accordionFlushExample">
+        <!-- <div class="accordion accordion-flush hide2" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed drawer" type="button" data-bs-toggle="collapse"
@@ -441,7 +440,63 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <div class="accordion accordion-flush hide2" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed back-drawer border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <strong>About Huawei</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse back-drawer" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item drawer"><a href="#" class="list"> Our Company </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list"> Sustainability </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Trust Center </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Executives </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Careers </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Suppliers </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">See More </a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed back-drawer" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <strong>News & Events</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse back-drawer" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-group list-group-flush drawer">
+                        <li class="list-group-item drawer"><a href="#" class="list"> Media Center </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list"> Events </a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed back-drawer border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <strong>Explore Huawei</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse back-drawer" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-group list-group-flush drawer">
+                        <li class="list-group-item drawer"><a href="#" class="list"> HuaweiTech </a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list"> Intelligent World 2030 </a>
+                        </li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Striding Towards</a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Huawei Blog</a></li>
+                        <li class="list-group-item drawer"><a href="#" class="list">Publications</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         <!-- ................................................................................................................................ -->
         <div class="container">
             <div class="row">
@@ -484,11 +539,11 @@
                     <a href="#" class="list">Carrier Support</a>
                     <a href="#" class="list">Security Bulletins</a>
                 </div>
-                <div class="hr2 mt-lg-5"></div>
+                <!-- <div class="hr2 mt-lg-5"></div> -->
                 <!-- ................................................................................................................ -->
                 <div class="container-lg">
                     <div class="row">
-                        <div class="col-lg col-12 offset-lg-0 text-center">
+                        <div class="col-lg col-12 offset-lg-0 text-center mt-5">
                                 <a href="#"class="text-decoration-none icont">Huawei Cloud</a>
                                 <a href="#"class="text-decoration-none ms-3 icont">FusionSolar Smart</a>
                             </div>
@@ -503,7 +558,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluide">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <div class="gray">
